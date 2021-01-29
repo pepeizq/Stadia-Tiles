@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{789B61D8-18D6-421B-8753-0697FBF98576}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <RootNamespace>Stadia_Tiles</RootNamespace>
+    <AssemblyName>Stadia Tiles</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <PackageCertificateThumbprint>CCFF009811681B50D53F24D4486B451078B788CE</PackageCertificateThumbprint>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm|arm64</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Stadia_Tiles.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Tile.vb" />
+    <Compile Include="MainPage.xaml.vb">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Configuracion\Cache.vb" />
+    <Compile Include="Modulos\Configuracion\LimpiezaArchivos.vb" />
+    <Compile Include="Modulos\Decompiladores.vb" />
+    <Compile Include="Modulos\Interfaz\AñadirTile.vb" />
+    <Compile Include="Modulos\Interfaz\Busqueda.vb" />
+    <Compile Include="Modulos\Interfaz\EfectosHover.vb" />
+    <Compile Include="Modulos\Interfaz\Juegos.vb" />
+    <Compile Include="Modulos\Interfaz\NavigationViewItems.vb" />
+    <Compile Include="Modulos\Interfaz\Pestañas.vb" />
+    <Compile Include="Modulos\MasCosas.vb" />
+    <Compile Include="Modulos\MasTiles.vb" />
+    <Compile Include="Modulos\Notificaciones.vb" />
+    <Compile Include="Modulos\Stadia.vb" />
+    <Compile Include="Modulos\StadiaBBDD.vb" />
+    <Compile Include="Modulos\Tiles\Añadir.vb" />
+    <Compile Include="Modulos\Tiles\Imagen.vb" />
+    <Compile Include="Modulos\Tiles\Personalizacion.vb" />
+    <Compile Include="Modulos\Trial.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Iconos\1.png" />
+    <Content Include="Assets\Iconos\2.png" />
+    <Content Include="Assets\Iconos\3.png" />
+    <Content Include="Assets\Iconos\4.png" />
+    <Content Include="Assets\Iconos\5.png" />
+    <Content Include="Assets\Juegos\016636d5f49f4862be3ff8cbcf6c7adercp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\05b9db9b9b5b489995568afd930a9db3rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\05f66a46027747a08b930ea70374ac7frcp1_ancha.png" />
+    <Content Include="Assets\Juegos\05f66a46027747a08b930ea70374ac7frcp1_grande.png" />
+    <Content Include="Assets\Juegos\05f66a46027747a08b930ea70374ac7frcp1_mediana.png" />
+    <Content Include="Assets\Juegos\0a60fff637b445a797623d0c69433a9crcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\0e6c703afde840148204847447b9c21drcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\0fd3103549b54c7e89afd6eed83672cercp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\11dfda5b2d78475d8624972b9b78c995rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\1376a179ca87458b85acd44341854772rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\161f276db10947a199cd0260ed4dc248rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\161f276db10947a199cd0260ed4dc248rcp1_grande.png" />
+    <Content Include="Assets\Juegos\161f276db10947a199cd0260ed4dc248rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\16330bd770134d85b5bef3cc6b1407ffrcp1_ancha.png" />
+    <Content Include="Assets\Juegos\16330bd770134d85b5bef3cc6b1407ffrcp1_grande.png" />
+    <Content Include="Assets\Juegos\16330bd770134d85b5bef3cc6b1407ffrcp1_mediana.png" />
+    <Content Include="Assets\Juegos\1694aaa3968344228424092f180a3e0ercp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\16d98de80a3340ffa4129953ae4e3206rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\18ea8c5d2f7e4f40ad783a512da8ef91rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\19efd5fa36794d7b8bc87de68124e705rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\1a871cfe8a7d4ebc8592c2ad4bc07150rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\232ff8abc7f74421a477e9e09dbf487drcp1_mediana.png" />
+    <Content Include="Assets\Juegos\232ff8abc7f74421a477e9e09dbf487drcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\2677ffb357f946e29b4e86a9f18ea55frcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\2847419bbb5146ed877a308d9884f504rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\2847419bbb5146ed877a308d9884f504rcp1_grande.png" />
+    <Content Include="Assets\Juegos\2847419bbb5146ed877a308d9884f504rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\29b3d5d6788f444c8cd59aa0a49d1bd1rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\29b3d5d6788f444c8cd59aa0a49d1bd1rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\36c01626f21f428e8d5ae35ce19c774brcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\377f50584071472096bcda89b0839bc3rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\377f50584071472096bcda89b0839bc3rcp1_grande.png" />
+    <Content Include="Assets\Juegos\377f50584071472096bcda89b0839bc3rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\382fe14629e148449e7b8f94e8aecb38rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\3c39a33bbc064308941f9276c38c30e7rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\3c39a33bbc064308941f9276c38c30e7rcp1_grande.png" />
+    <Content Include="Assets\Juegos\3f94b62fa50c4202be10472947478f8frcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\41de509cbdbb4a13828636099c57731arcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\430bbe284fb7482c9afe8e877b119269rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\44752f1774ca4508a2c45e57121d7e8frcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\49697e672bc34e7d8a5f73f78cb580d0rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\53bd183291e340dda697167108d3dc6brcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\5ba98de70c8c4b64bf56ca9009d60e62rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\5ba98de70c8c4b64bf56ca9009d60e62rcp1_grande.png" />
+    <Content Include="Assets\Juegos\5ba98de70c8c4b64bf56ca9009d60e62rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\5f54e869de4441f8998e80d2c54fa74brcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\657210fe20ad402b85bda8f816b80d98rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\65864a95f9e74129845bda0467486413rcp1_grande.png" />
+    <Content Include="Assets\Juegos\65864a95f9e74129845bda0467486413rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\65864a95f9e74129845bda0467486413rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\68add0d67fe3491f94cb439664b1ffc7rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\6a2ac2fc8e684c41b5c14981dcb454fdrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\6d0d865669774338b3ce888a84da6cdercp1_mediana.png" />
+    <Content Include="Assets\Juegos\6d0d865669774338b3ce888a84da6cdercp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\7183914d07034cb1bbb8a511779bc1efrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\76309b9f2f294b07b410e8b6aa879273rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\769a088b9ef04c04b341911a1ef8b8ecrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\7b6d79b833354dcaa9b2461086a7763crcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\7d9beb13648d44839b9aeea7555c37c0rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8185df0ce9d74d61aab58a12d4bf21a0rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8533fb04b9174c3f8dce10a2fec7b062rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\8533fb04b9174c3f8dce10a2fec7b062rcp1_grande.png" />
+    <Content Include="Assets\Juegos\8533fb04b9174c3f8dce10a2fec7b062rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\88a2945345f744519c5148ddd54f26d1rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8e77c7a4368944589b4c9d8179d2eb4crcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8f0addba5d3d4c05b07d7b59481e0171rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8f8d583a2ae843e0b31fa653cea5d27drcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\92f77c19718444499ffb3054dd97ca36rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\92f77c19718444499ffb3054dd97ca36rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\990ec302c2cd4ba7817cedcf633ab20frcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\9affbc684aeb422086bfb5d0c8bf2f55rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\9affbc684aeb422086bfb5d0c8bf2f55rcp1_grande.png" />
+    <Content Include="Assets\Juegos\9affbc684aeb422086bfb5d0c8bf2f55rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\9dc548a191914b419cc80802ca64788frcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\a089691b36254f77bc66a75052fc7cf6rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\a1ce1274a83244f1a099bebef7ae1233rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\a2a4ff75e249404a975db7ae5f77e536rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\a3725b4a70aa4447b4c193125f3a2529rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\a3725b4a70aa4447b4c193125f3a2529rcp1_grande.png" />
+    <Content Include="Assets\Juegos\a3725b4a70aa4447b4c193125f3a2529rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\b00e2f20b91e43c8a0597b07fc80ca84rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\b0a2ab7cdc194582bc4d111c07c2e30drcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\b3bd32ef05444a189dcdc88f8e85d7f2rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\b67e43f2b05f4ba7acc56a4b222568aarcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\b7503867ccbc4ac7be7093fe3ba1523crcp1_grande.png" />
+    <Content Include="Assets\Juegos\b7503867ccbc4ac7be7093fe3ba1523crcp1_mediana.png" />
+    <Content Include="Assets\Juegos\b7503867ccbc4ac7be7093fe3ba1523crcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\b87ca389d6454546af28dff82898406arcp1_ancha.png" />
+    <Content Include="Assets\Juegos\b87ca389d6454546af28dff82898406arcp1_grande.png" />
+    <Content Include="Assets\Juegos\b87ca389d6454546af28dff82898406arcp1_mediana.png" />
+    <Content Include="Assets\Juegos\c1928530515748da9f55afc7243fd3e1rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\c1928530515748da9f55afc7243fd3e1rcp1_grande.png" />
+    <Content Include="Assets\Juegos\c1928530515748da9f55afc7243fd3e1rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\c911998e4f8d4c6ea6712c5ad33e4a54rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\cc1a8e0e94d54f15a22149fed93bbd7arcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\cc3f233990754f77a5819a583594f399rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\cf65dc95d523465493d6fbc482452227rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\cf784a0f4c554ce68a2880cb461bd903rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\d3d8e467203d401387857d5b6cc27263rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\d46f9c2d858d41d6ae4cc12d186657f0rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\deb490c166544813bf2ab73f4c6e2aa0rcp1_ancha.png" />
+    <Content Include="Assets\Juegos\deb490c166544813bf2ab73f4c6e2aa0rcp1_grande.png" />
+    <Content Include="Assets\Juegos\deb490c166544813bf2ab73f4c6e2aa0rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\df0f55ed73d946b8a70398fea9805e2drcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\e4e8f5e5bc744270a644c554ba3f2962rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\e6005e58d6d3458abd01bcf68e264ccercp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\e7506ec75c8046dfa7879fe604505ca7rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\ed05d9df2ec4452594b07336e360a1aarcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\ef14fb2f692c4b42b4b092d3e7864cd8rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\f001c122cb70445d8a247d5b6f6334cbrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\f28e66bbd0984c77ac6a54e8cc3007bdrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\f3519f3dc3d74fbb8086520577b832e0rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\f5f9708a422a44cc876c240cfa07221drcp1_pequeña.jpg" />
+    <Content Include="Assets\Logos\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\Logos\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\Logos\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\Logos\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\Logos\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\Logos\LargeTile.scale-100.png" />
+    <Content Include="Assets\Logos\LargeTile.scale-125.png" />
+    <Content Include="Assets\Logos\LargeTile.scale-150.png" />
+    <Content Include="Assets\Logos\LargeTile.scale-200.png" />
+    <Content Include="Assets\Logos\LargeTile.scale-400.png" />
+    <Content Include="Assets\Logos\SmallTile.scale-100.png" />
+    <Content Include="Assets\Logos\SmallTile.scale-125.png" />
+    <Content Include="Assets\Logos\SmallTile.scale-150.png" />
+    <Content Include="Assets\Logos\SmallTile.scale-200.png" />
+    <Content Include="Assets\Logos\SmallTile.scale-400.png" />
+    <Content Include="Assets\Logos\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Logos\SplashScreen.scale-125.png" />
+    <Content Include="Assets\Logos\SplashScreen.scale-150.png" />
+    <Content Include="Assets\Logos\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Logos\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Logos\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-unplated_targetsize-24.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Logos\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Logos\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Logos\StoreLogo.scale-125.png" />
+    <Content Include="Assets\Logos\StoreLogo.scale-150.png" />
+    <Content Include="Assets\Logos\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Logos\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Logos\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\stadiatiles_logo.png" />
+    <Content Include="My Project\Default.rd.xml" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections.ObjectModel" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Runtime.CompilerServices" />
+    <Import Include="System.Runtime.InteropServices.WindowsRuntime" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Windows.ApplicationModel" />
+    <Import Include="Windows.ApplicationModel.Activation" />
+    <Import Include="Windows.Foundation" />
+    <Import Include="Windows.Foundation.Collections" />
+    <Import Include="Windows.Graphics.Display" />
+    <Import Include="Windows.UI.ViewManagement" />
+    <Import Include="Windows.UI.Xaml" />
+    <Import Include="Windows.UI.Xaml.Controls" />
+    <Import Include="Windows.UI.Xaml.Controls.Primitives" />
+    <Import Include="Windows.UI.Xaml.Data" />
+    <Import Include="Windows.UI.Xaml.Input" />
+    <Import Include="Windows.UI.Xaml.Media" />
+    <Import Include="Windows.UI.Xaml.Media.Imaging" />
+    <Import Include="Windows.UI.Xaml.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FontAwesome5">
+      <Version>2.0.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.11</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <Version>6.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Animations">
+      <Version>6.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Controls">
+      <Version>6.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\en-US\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\es-ES\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
