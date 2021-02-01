@@ -54,6 +54,7 @@
             New StadiaBBDDEntrada("Human: Fall Flat", "16d98de80a3340ffa4129953ae4e3206rcp1", "477160"),
             New StadiaBBDDEntrada("Immortals Fenyx Rising", "161f276db10947a199cd0260ed4dc248rcp1", Nothing),
             New StadiaBBDDEntrada("Into The Breach", "1a871cfe8a7d4ebc8592c2ad4bc07150rcp1", "590380"),
+            New StadiaBBDDEntrada("Journey to the Savage Planet", "22c6d03e67474644a139de4f04a08c11rcp1", "973810"),
             New StadiaBBDDEntrada("Jotun: Valhalla Edition", "c727a9083ce649e5b1cc6999c4fa2e5frcp1", "323580"),
             New StadiaBBDDEntrada("Just Dance 2020", "4b7f307c37364d659118bf7d435733c7rcp1", Nothing),
             New StadiaBBDDEntrada("Just Dance 2021", "b87ca389d6454546af28dff82898406arcp1", Nothing),
