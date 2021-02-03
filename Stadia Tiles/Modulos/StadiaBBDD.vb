@@ -32,6 +32,7 @@
             New StadiaBBDDEntrada("El Hijo - A Wild West Tale", "d46f9c2d858d41d6ae4cc12d186657f0rcp1", "853050"),
             New StadiaBBDDEntrada("Embr", "d599576cddfc400f804b889460e84cb3rcp1", "1062830"),
             New StadiaBBDDEntrada("Enter The Gungeon", "8f0addba5d3d4c05b07d7b59481e0171rcp1", "311690"),
+            New StadiaBBDDEntrada("Epistory - Typing Chronicles", "cddb29b222924d11b2bf03a82fee477arcp1", "398850"),
             New StadiaBBDDEntrada("Everspace", "44752f1774ca4508a2c45e57121d7e8frcp1", "396750"),
             New StadiaBBDDEntrada("F1 2020", "f3519f3dc3d74fbb8086520577b832e0rcp1", "1080110"),
             New StadiaBBDDEntrada("Family Feud", "5ba98de70c8c4b64bf56ca9009d60e62rcp1", Nothing),
