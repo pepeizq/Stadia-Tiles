@@ -90,6 +90,7 @@
             New StadiaBBDDEntrada("PGA TOUR 2K21", "6a2ac2fc8e684c41b5c14981dcb454fdrcp1", "1016120"),
             New StadiaBBDDEntrada("Phoenix Point", "18ea8c5d2f7e4f40ad783a512da8ef91rcp1", "839770"),
             New StadiaBBDDEntrada("PHOGS", "05b9db9b9b5b489995568afd930a9db3rcp1", "850320"),
+            New StadiaBBDDEntrada("Pikuniku", "c02a86f966b044569ee03f80fbc86035rcp1", "572890"),
             New StadiaBBDDEntrada("PlayerUnknown's Battlegrounds", "a4c5eb3f4e614b7fadbba64cba68f849rcp1", "578080"),
             New StadiaBBDDEntrada("Power Rangers: Battle for the Grid", "bbb1a143aa3449a5a1f236a05c305c9frcp1", "1110100"),
             New StadiaBBDDEntrada("RAGE 2", "8615c857d7d54efebd94fe17e3f2896crcp1", "548570"),
