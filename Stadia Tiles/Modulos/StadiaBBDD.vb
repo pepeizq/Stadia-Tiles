@@ -66,6 +66,7 @@
             New StadiaBBDDEntrada("Lara Croft and the Temple of Osiris", "6d0d865669774338b3ce888a84da6cdercp1", "289690"),
             New StadiaBBDDEntrada("Little Big Workshop", "e4e8f5e5bc744270a644c554ba3f2962rcp1", "574720"),
             New StadiaBBDDEntrada("Little Nightmares", "3aed855f10b34f618e5f6c6f5467bcf9rcp1", "424840"),
+            New StadiaBBDDEntrada("Little Nightmares II", "0175bc876f55414ca207b2ea6691cfb2rcp1", "860510"),
             New StadiaBBDDEntrada("Lost Words: Beyond the Page", "d334bea27ee64ef5a3a9bb14b1d6a88ercp1", "599610"),
             New StadiaBBDDEntrada("Madden NFL 21", "0e6c703afde840148204847447b9c21drcp1", "1239520"),
             New StadiaBBDDEntrada("Marvel's Avengers", "232ff8abc7f74421a477e9e09dbf487drcp1", "997070"),
