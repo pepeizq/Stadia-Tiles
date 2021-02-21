@@ -147,7 +147,7 @@
             New StadiaBBDDEntrada("Windbound", "657210fe20ad402b85bda8f816b80d98rcp1", "1162130"),
             New StadiaBBDDEntrada("Wolfenstein: Youngblood", "4884bd9bd7864cf28deef05ef4b69e70rcp1", "1056960"),
             New StadiaBBDDEntrada("WWE 2K Battlegrounds", "f28e66bbd0984c77ac6a54e8cc3007bdrcp1", "1142100"),
-            New StadiaBBDDEntrada("Zombie Army 4: Dead War", "cba537cccfe3470b8784f88660ea5f09rcp1", Nothing)
+            New StadiaBBDDEntrada("Zombie Army 4: Dead War", "cba537cccfe3470b8784f88660ea5f09rcp1", "694280")
         }
 
         Return lista

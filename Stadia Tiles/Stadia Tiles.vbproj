@@ -329,9 +329,7 @@
     <Content Include="Assets\Juegos\cabec52b78264dafac69011aeacd5753rcp1_ancha.png" />
     <Content Include="Assets\Juegos\cabec52b78264dafac69011aeacd5753rcp1_grande.png" />
     <Content Include="Assets\Juegos\cabec52b78264dafac69011aeacd5753rcp1_mediana.png" />
-    <Content Include="Assets\Juegos\cba537cccfe3470b8784f88660ea5f09rcp1_ancha.png" />
-    <Content Include="Assets\Juegos\cba537cccfe3470b8784f88660ea5f09rcp1_grande.png" />
-    <Content Include="Assets\Juegos\cba537cccfe3470b8784f88660ea5f09rcp1_mediana.png" />
+    <Content Include="Assets\Juegos\cba537cccfe3470b8784f88660ea5f09rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\cc1a8e0e94d54f15a22149fed93bbd7arcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\cc3f233990754f77a5819a583594f399rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\cc97434908874852a6705d255a605dc8rcp1_pequeña.jpg" />
