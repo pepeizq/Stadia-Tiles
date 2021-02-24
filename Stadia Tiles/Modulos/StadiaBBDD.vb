@@ -6,6 +6,7 @@
     Public Function Listado()
 
         Dim lista As New List(Of StadiaBBDDEntrada) From {
+            New StadiaBBDDEntrada("A Place for the Unwilling", "d5a3bd3f904647e1b72b346be7330c39rcp1", "1064310"),
             New StadiaBBDDEntrada("Ary and the Secret of Seasons", "016636d5f49f4862be3ff8cbcf6c7adercp1", "935570"),
             New StadiaBBDDEntrada("Assassin's Creed Odyssey", "8b7e7f7036e5483eaa8745d46248536crcp1", "812140"),
             New StadiaBBDDEntrada("Assassin's Creed Origins", "11dfda5b2d78475d8624972b9b78c995rcp1", "582160"),
@@ -109,6 +110,8 @@
             New StadiaBBDDEntrada("Serious Sam 4", "b3bd32ef05444a189dcdc88f8e85d7f2rcp1", "257420"),
             New StadiaBBDDEntrada("Serious Sam Collection", "cabec52b78264dafac69011aeacd5753rcp1", Nothing),
             New StadiaBBDDEntrada("Shadow of the Tomb Raider: Definitive Edition", "efa3b6108d3e41689b2223ba9d48f5c8rcp1", "750920"),
+            New StadiaBBDDEntrada("Shantae: Half - Genie Hero Ultimate Edition", "bd913a37ecfe4b8d8c68280f4e1781bbrcp1", "764300"),
+            New StadiaBBDDEntrada("Shantae: Risky's Revenge - Director's Cut", "4fe5de76fee2427591e4a61d046a20d0rcp1", "277890"),
             New StadiaBBDDEntrada("Sniper Elite 4", "1376a179ca87458b85acd44341854772rcp1", "312660"),
             New StadiaBBDDEntrada("Spiritfarer", "430bbe284fb7482c9afe8e877b119269rcp1", "972660"),
             New StadiaBBDDEntrada("Spitlings", "921e9afe46aa478fb4aa929a7b1a6bd5rcp1", "1002000"),
@@ -143,6 +146,7 @@
             New StadiaBBDDEntrada("Watch Dogs 2", "e6005e58d6d3458abd01bcf68e264ccercp1", "447040"),
             New StadiaBBDDEntrada("Watch Dogs Legion", "deb490c166544813bf2ab73f4c6e2aa0rcp1", Nothing),
             New StadiaBBDDEntrada("Wave Break", "3e7b24085e704c10ab03f93a19947c14rcp1", "761010"),
+            New StadiaBBDDEntrada("Welcome to Elk", "9fb7a46ff38a4c1d842e9ddd35b24d00rcp1", "1015940"),
             New StadiaBBDDEntrada("West of Loathing", "0a60fff637b445a797623d0c69433a9crcp1", "597220"),
             New StadiaBBDDEntrada("Windbound", "657210fe20ad402b85bda8f816b80d98rcp1", "1162130"),
             New StadiaBBDDEntrada("Wolfenstein: Youngblood", "4884bd9bd7864cf28deef05ef4b69e70rcp1", "1056960"),
