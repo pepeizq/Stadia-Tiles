@@ -149,6 +149,7 @@
             New StadiaBBDDEntrada("SUPERHOT: MIND CONTROL DELETE", "382fe14629e148449e7b8f94e8aecb38rcp1", "690040"),
             New StadiaBBDDEntrada("Terraria", "774b82b8c1194dc2acc13a268c4ea7c7rcp1", "105600"),
             New StadiaBBDDEntrada("The Crew 2", "cc97434908874852a6705d255a605dc8rcp1", "646910"),
+            New StadiaBBDDEntrada("The Darkside Detective", "b465998ccc1c48aaa2fb74f331ebbdd7rcp1", "368390"),
             New StadiaBBDDEntrada("The Elder Scrolls Online", "b17f16d4a4f94c0a85e07f54dbdedbb6rcp1", "306130"),
             New StadiaBBDDEntrada("The Gardens Between", "cf65dc95d523465493d6fbc482452227rcp1", "600990"),
             New StadiaBBDDEntrada("The Legend of Heroes: Trails of Cold Steel III", "5de3aed0b1b4439887e1cb4458f9cec8rcp1", "991270"),
