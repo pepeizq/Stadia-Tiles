@@ -169,6 +169,7 @@
             New StadiaBBDDEntrada("TOHU", "df0f55ed73d946b8a70398fea9805e2drcp1", "1075200"),
             New StadiaBBDDEntrada("Tom Clancy's Ghost Recon Breakpoint", "11c9ece5b3a045908d77cf2b66adb010rcp1", Nothing),
             New StadiaBBDDEntrada("Tom Clancy's Ghost Recon Wildlands", "a1ce1274a83244f1a099bebef7ae1233rcp1", "460930"),
+            New StadiaBBDDEntrada("Tom Clancy's Rainbow Six Siege", "ab3353cfcd1f4a938e40b0ba32c72b64rcp1", "359550"),
             New StadiaBBDDEntrada("Tom Clancy's The Division 2", "d43cd46c81734ca48e1a615310d0237crcp1", Nothing),
             New StadiaBBDDEntrada("Tomb Raider: Definitive Edition", "42503ac2cfcf40018c15c86b86a5508drcp1", "203160"),
             New StadiaBBDDEntrada("Trials Rising", "a031419410cc48469ff8954ea0732640rcp1", "641080"),
