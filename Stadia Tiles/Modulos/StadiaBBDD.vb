@@ -16,6 +16,7 @@
             New StadiaBBDDEntrada("Attack on Titan 2: Final Battle", "a38d988fb142400c947bf0a7b37fd404rcp1", "601050"),
             New StadiaBBDDEntrada("AVICII Invector", "2c8b9ab112e5460db922dc7353381256rcp1", "986800"),
             New StadiaBBDDEntrada("Baldur's Gate 3", "41de509cbdbb4a13828636099c57731arcp1", "1086940"),
+            New StadiaBBDDEntrada("Bloodstained: Ritual of The Night", "df3c9859e1d14300941f62a693d140e2rcp1", "692850"),
             New StadiaBBDDEntrada("Blue Fire", "e9c4d2fc77424c34b0cd570bd761aab0rcp1", "1220150"),
             New StadiaBBDDEntrada("Borderlands 3", "be080ad40b434ca289166031d3e88623rcp1", "397540"),
             New StadiaBBDDEntrada("Cake Bash", "19efd5fa36794d7b8bc87de68124e705rcp1", "971690"),
@@ -97,6 +98,7 @@
             New StadiaBBDDEntrada("Monster Energy Supercross - The Official Videogame 4", "a62130f4b41b4878a00f8ec444df6b01rcp1", "1304340"),
             New StadiaBBDDEntrada("Monster Jam Steel Titans", "e7506ec75c8046dfa7879fe604505ca7rcp1", "824280"),
             New StadiaBBDDEntrada("Monster Jam Steel Titans 2", "3fa9461d9fbd4fb3855039d9b64ca736rcp1", "1205480"),
+            New StadiaBBDDEntrada("Moonlighter", "703fbd4ee94441299adeaace6446f27arcp1", "606150"),
             New StadiaBBDDEntrada("Mortal Kombat 11", "7bfbcba307114ab88ae4231da2ec85d3rcp1", "976310"),
             New StadiaBBDDEntrada("MotoGP 20", "e465c4086aff4884990933d9f119f5f5rcp1", "1161490"),
             New StadiaBBDDEntrada("Murder by Numbers", "ee055d3ed7d3485d81ee329ec554c207rcp1", "1140290"),
@@ -186,6 +188,7 @@
             New StadiaBBDDEntrada("Windbound", "657210fe20ad402b85bda8f816b80d98rcp1", "1162130"),
             New StadiaBBDDEntrada("Wolfenstein: Youngblood", "4884bd9bd7864cf28deef05ef4b69e70rcp1", "1056960"),
             New StadiaBBDDEntrada("WWE 2K Battlegrounds", "f28e66bbd0984c77ac6a54e8cc3007bdrcp1", "1142100"),
+            New StadiaBBDDEntrada("Ys IX: Monstrum Nox", "b2c9b37fb3eb4089ad91f30b4e30ce92rcp1", "1351630"),
             New StadiaBBDDEntrada("Ys VIII: Lacrimosa of DANA", "7ced0b517b144dd98529ceffab963791rcp1", "579180"),
             New StadiaBBDDEntrada("Zombie Army 4: Dead War", "cba537cccfe3470b8784f88660ea5f09rcp1", "694280")
         }
