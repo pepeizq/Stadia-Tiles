@@ -213,6 +213,7 @@
             New StadiaBBDDEntrada("The Elder Scrolls Online", "b17f16d4a4f94c0a85e07f54dbdedbb6rcp1", "306130"),
             New StadiaBBDDEntrada("The Falconeer", "b7be5151de924478ab54ef9afeee4826rcp1", "1135260"),
             New StadiaBBDDEntrada("The Gardens Between", "cf65dc95d523465493d6fbc482452227rcp1", "600990"),
+            New StadiaBBDDEntrada("The Jackbox Party Pack 6", "a107146e18db4da4b3781d8b75781f88rcp1", "1005300"),
             New StadiaBBDDEntrada("The Jackbox Party Pack 7", "155df2871ce84e26839216542747b1fbrcp1", "1211630"),
             New StadiaBBDDEntrada("The Jackbox Party Pack 8", "5553fb6e89514ca48891044b8e0ef47frcp1", "1552350"),
             New StadiaBBDDEntrada("The Legend of Heroes: Trails of Cold Steel III", "5de3aed0b1b4439887e1cb4458f9cec8rcp1", "991270"),
