@@ -17,7 +17,7 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
-    <PackageCertificateThumbprint>CCFF009811681B50D53F24D4486B451078B788CE</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>DF3053C77B8B2DBE04D1BCD89D94BE42C5277F76</PackageCertificateThumbprint>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
@@ -25,6 +25,7 @@
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm|arm64</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <PackageCertificateKeyFile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -186,6 +187,7 @@
     <Content Include="Assets\Juegos\05f66a46027747a08b930ea70374ac7frcp1_grande.png" />
     <Content Include="Assets\Juegos\05f66a46027747a08b930ea70374ac7frcp1_mediana.png" />
     <Content Include="Assets\Juegos\06a1ece9dfdd42f3871af2735d688a34rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\09011184da8446c1b6fafb8c010888bfrcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\0a60fff637b445a797623d0c69433a9crcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\0b14eb3560f94ed69375f6ca5b7491fercp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\0e6c703afde840148204847447b9c21drcp1_pequeña.jpg" />
@@ -313,6 +315,7 @@
     <Content Include="Assets\Juegos\694bb88862a84a4d86ef09c447094763rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\6a2ac2fc8e684c41b5c14981dcb454fdrcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\6b43cecd79734ba28cef5894985c65f1rcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\6c48ffe02b6b439583fba2038c8a5249rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\6cf458a458cd4b2e8161c740c4844621rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\6d0d865669774338b3ce888a84da6cdercp1_mediana.png" />
     <Content Include="Assets\Juegos\6d0d865669774338b3ce888a84da6cdercp1_pequeña.jpg" />
@@ -352,6 +355,7 @@
     <Content Include="Assets\Juegos\88a2945345f744519c5148ddd54f26d1rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\8a3cc52ad2334b1e91ded77bc43644e0rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\8b7e7f7036e5483eaa8745d46248536crcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\8b82beb7ee8d45968e1a4756fc278fc4rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\8c452d1e69554c36a28b64ee8344037drcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\8d30307256df491c9d578792d11bd474rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\8e77c7a4368944589b4c9d8179d2eb4crcp1_pequeña.jpg" />
@@ -412,6 +416,7 @@
     <Content Include="Assets\Juegos\ba593716983f436ea49ae09a531d65b5rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\bbb1a143aa3449a5a1f236a05c305c9frcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\bd913a37ecfe4b8d8c68280f4e1781bbrcp1_pequeña.jpg" />
+    <Content Include="Assets\Juegos\bd9890f0ca304e6e8d329ae133199793rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\be080ad40b434ca289166031d3e88623rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\be5c488f89db474bb5b42e54dab1fe5drcp1_grande.png" />
     <Content Include="Assets\Juegos\be5c488f89db474bb5b42e54dab1fe5drcp1_mediana.png" />
@@ -476,6 +481,7 @@
     <Content Include="Assets\Juegos\e85d550899de407e996a8a2d9dfbc7efrcp1_ancha.jpg" />
     <Content Include="Assets\Juegos\e85d550899de407e996a8a2d9dfbc7efrcp1_grande.jpg" />
     <Content Include="Assets\Juegos\e85d550899de407e996a8a2d9dfbc7efrcp1_mediana.png" />
+    <Content Include="Assets\Juegos\e8eaa376059b43d5a3007c13589e8a1drcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\e9c4d2fc77424c34b0cd570bd761aab0rcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\ebf235012b054269af70eee901bc85cfrcp1_pequeña.jpg" />
     <Content Include="Assets\Juegos\ed05d9df2ec4452594b07336e360a1aarcp1_pequeña.jpg" />
@@ -552,6 +558,7 @@
     <Content Include="Assets\stadiatiles_logo.png" />
     <Content Include="My Project\Default.rd.xml" />
     <None Include="Package.StoreAssociation.xml" />
+    <None Include="Stadia Tiles_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
